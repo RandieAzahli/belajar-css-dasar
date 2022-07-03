@@ -1,0 +1,21 @@
+/* * Text styling */
+
+body {
+    background-color: #fadef7;
+}
+
+h1 {
+    color: skyblue;
+    font-size: 150px;
+    text-decoration: line-through;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: rgb(185, 33, 63);
+    text-indent: 100px;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 30px;
+}

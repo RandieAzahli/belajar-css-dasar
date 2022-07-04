@@ -1,0 +1,6 @@
+body {
+    background-image: url(../images-assets/bg-1.jpg);
+    background-color: lightblue;
+    background-repeat: repeat-y;
+    /* background-position: bottom center; */
+}

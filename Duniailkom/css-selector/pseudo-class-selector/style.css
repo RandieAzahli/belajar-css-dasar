@@ -1,0 +1,153 @@
+/* ? Pseudo class selector adalah selector CSS untuk mencari element HTML yang tidak terlihat secara langsung (tidak ada di dalam struktur DOM). */ 
+
+/* * Dynamic pseudo class selector */
+/* mencari struktur element html berdasarkan suatu hal yang berubah karena interaksi user */
+
+/* :link {color: red;}
+:visited {color: green;}
+a:hover {color: aqua;}
+a:active {color: yellow;} 
+:target {color: magenta;}
+*/
+
+/* input:focus
+{
+    border: 2px solid yellow;
+    outline: none;
+} */
+
+/* * UI Element State Pseudo Class Selector */
+/* jenis selector CSS yang dipakai untuk mencari element HTML berdasarkan kondisi dari element tersebut. */
+
+/* input:enabled {border: 2px solid green;}
+input:disabled {border: 2px solid red;}
+input:checked {margin-left: 30px;} */
+
+/* * Structural Pseudo Class Selectors */
+/* dipakai untuk menemukan element HTML yang cukup kompleks dimana selector biasa tidak bisa digunakan. Dalam beberapa hal, kita juga bisa melakukan 'pencocokan pola' (pattern matching) untuk mencari element HTML. */
+
+/* ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{
+    width: 150px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+    margin-left: 50px;
+    line-height: 30px;
+}  */
+
+/* ul li:first-child
+{
+    background-color: magenta;
+}
+
+ul li:last-child
+{
+    background-color: aqua;
+}
+
+p:first-of-type
+{
+    color: red;
+} */
+
+/* li:nth-child(odd)
+{
+    background-color: magenta;
+}
+
+li:nth-child(even)
+{
+    background-color: aqua;
+} */
+
+/* li:nth-child(2) {background-color: crimson;}
+li:nth-child(7) {background-color: sandybrown;}
+li:nth-child(13) {background-color: blueviolet;} */
+
+/* li:nth-child(2n+1)
+{
+    background-color: yellow;
+}
+
+li:nth-child(2n+0)
+{
+    background-color: greenyellow;
+} */
+
+/* li:nth-child(2n+5)
+{
+    background-color: crimson;
+} */
+
+/* li:nth-child(4n+3)
+{
+    background-color: blue;
+} */
+
+/* li:nth-child(4n-3)
+{
+    background-color: aqua;
+} */
+
+/* li:nth-child(5n-3)
+{
+    background-color: magenta;
+} */
+
+/* p:nth-child(3) {color: red;}
+
+p:nth-child(5) {color: red;}
+p:nth-of-type(7) {color: green;} */
+
+/* p:not(.tes)
+{
+    color: red;
+} */
+
+/* ? Pseudo Element Selector */
+/* Pseudo element lebih fokus kepada menyeleksi konten atau isi element daripada struktur HTML. */
+
+/* p::first-line
+{
+    color: green;
+} */
+
+/* p::first-letter
+{
+    color: red;
+    font-size: 2em;
+} */
+
+/* a::before
+{
+    content: "Sejarah ";
+} */
+
+/* a::after
+{
+    content: " (Sejarah dan perkembangannya)";
+} */
+
+/* a::after
+{
+    content: " ("attr(href)") ";
+    color: silver;
+} */
+
+h3 {
+    counter-increment: noUrut;
+}
+
+h3::after
+{
+    content: " ke- "counter(noUrut)"";
+}
+    

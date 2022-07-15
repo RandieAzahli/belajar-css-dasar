@@ -1,0 +1,10 @@
+/* ? Specificity merupakan metode perhitungan nilai untuk menentukan selector mana yang akan didahulukan. */
+
+/* #paragrafPertama {color: red;}
+.paragraf {color: blue;}
+p {color: greeen;} */
+
+/* * Dengan menambah perintah !importan t, sebuah property CSS akan memiliki prioritas paling tinggi dan hanya bisa dikalahkan oleh perintah !important lain yang lebih spesifik. */
+
+p {color: green !important;}
+body #paragrafPertama {color: brown !important;}

@@ -1,0 +1,11 @@
+/* ? Typography adalah sebuah seni mengatur huruf/teks untuk membuatnya lebih mudah dibaca dan menarik secara visual. */
+
+/* 
+    * serif
+    * sans-serif
+    * monospace
+    * cursive
+    * fantasy
+*/
+
+body {font-family: Georgia, 'Times New Roman', Times, serif;}

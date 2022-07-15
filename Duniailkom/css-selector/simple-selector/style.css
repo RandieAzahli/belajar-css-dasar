@@ -1,0 +1,109 @@
+/* TODO:  selector adalah sebuah pola (pattern) yang digunakan untuk mencari suatu tag/element di dalam HTML */
+
+/* * SIMPLE SELECTOR */
+
+/* ? universal selector */
+ /* * 
+ {
+    color: red;
+ }
+
+ div
+ {
+    color: green;
+ } */
+
+ /* ? element selector */
+
+ /* h1
+ {
+    color: purple;
+ }
+
+ p {
+    color: blue;
+ } */
+
+ /* ? class selector */
+
+ /* .judul 
+ {
+    color: olive;
+ }
+
+ .peringatan
+ {
+    color: red;
+ }
+
+ .penjelasan 
+ {
+    color: brown;
+ } */
+
+ /* .peringatan 
+ {
+    color: red;
+ }
+
+ .penting
+ {
+    font-size: 22px;
+ }
+
+ .pertama
+{
+    background-color: aqua;
+} */
+
+/* ? id selector */
+
+/* #judulUtama
+{
+    color: purple;
+}
+
+#pesan {
+    color: red;
+}
+
+#judulKedua
+{
+    color: green;
+} */
+
+/* ? attribute selector */
+
+/* [title]
+{
+    color: green;
+} */
+
+/* li[title]
+{
+    color: green;
+} */
+
+/* [title="kota bandung"] {
+    color: green;
+} */
+
+/* [title~="kota"]
+{
+    color: green;
+} */
+
+/* [title*="ba"]
+{
+    color: green;
+} */
+
+/* [href^="https"]
+{
+    color: green;
+} */
+
+/* [href$=".pdf"]
+{
+    color: green;
+} */

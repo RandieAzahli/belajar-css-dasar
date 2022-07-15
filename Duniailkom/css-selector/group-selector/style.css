@@ -1,0 +1,89 @@
+/* ? Group selector sebenarnya bukanlah 'selector murni', tapi hanya sebutan untuk cara menggabungkan beberapa selector ke dalam satu perintah. */
+
+/* h1, h2, p 
+{
+    color: red;
+} */
+
+/* .judul-utama, [title~="serius"], #headerKedua
+{
+    color: green;
+} */
+
+/* ? element spesific selector berupa penggabungan beberapa selector untuk membuat selector yang lebih spesifik. */
+
+/* .judul
+{
+    color: silver;
+} */
+
+/* h2.judul
+{
+    color: silver;
+} */
+
+/* ? Descendant selector adalah sebutan untuk selector yang mencari tag HTML berdasarkan struktur hubungan induk-anak (parent-child relationship). */
+
+/* body h1
+{
+    color: green;
+}
+
+div .judul
+{
+    color: red;
+}
+
+p em {
+    color: purple;
+} */
+
+/* div .pesan 
+{
+    color: purple;
+}
+
+div.pesan
+{
+    color: green;
+} */
+
+/* ? child selector juga menggunakan struktur DOM dan parent child relationship. Bedanya, child selector hanya akan mencari tag HTML yang menjadi anak pertama (first child) dari struktur DOM. */
+
+/* div p
+{
+    color: green;
+} */
+
+/* div>p
+{
+    color: green;
+} */
+
+/* ol li ul>li 
+{
+    color: red;
+} */
+
+/* ? Adjacent selector masih berhubungan dengan struktur DOM, kali ini yang akan disinggung adalah sibling relationship (hubungan saudara). */
+
+/* h2+p
+{
+    color: green;
+} */
+
+/* div h2 {
+    color: green;
+}
+
+div+h2
+{
+    color: red;
+} */
+
+/* ? General sibling selector sangat mirip dengan adjacent selector. Bedanya, jika pada adjacent selector hanya cocok dengan satu tag yang menjadi sibling, general sibling selector akan cocok dengan seluruh sibling. */
+
+/* h2~p
+{
+    color: green;
+} */

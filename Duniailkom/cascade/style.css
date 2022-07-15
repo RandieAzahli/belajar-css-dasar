@@ -1,0 +1,11 @@
+/* ? Cascade adalah sebuah aturan penurunan style di dalam CSS. */
+
+/*  
+* 1. User Style
+* 2. Inline Style
+* 3. Internal Style dan External Style
+* 4. Web browser style */
+
+h2 {
+    color: red;
+}

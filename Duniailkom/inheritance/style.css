@@ -1,0 +1,11 @@
+/* * Inheritance diartikan sebagai penurunan/pewarisan adalah konsep dimana sebuah style bisa diturunkan dari parent (induk) kepada child element (anak). */
+
+/* body {color: green;}
+div {color: magenta;}
+strong {color: red;} */
+
+/* body {color: green;}
+div {font-size: 25px;}
+p {background-color: silver;} */
+
+/* body {border: 1px solid red;} */

@@ -1,0 +1,50 @@
+/* ? CSS menyediakan beragam satuan untuk mengatur ukuran font, yang semuanya di-set melalui property font-size . */
+
+/* * Jika kita tidak mendefinisikan ukuran font, sebuah teks akan memakai ukuran default web browser. Biasanya ukuran teks default ini sebesar 16 pixel. */
+
+/* * Nilai absolute */
+
+/* .mm {font-size: 7mm;}
+.cm {font-size: 1.2cm;}
+.pt {font-size: 16pt;}
+.in {font-size: 0.3in;}
+.pc {font-size: 2.1pc;}
+.px {font-size: 14px;} */
+
+/* div {font-size: 18px;}
+.persen130 {font-size: 130%;}
+.persen90 {font-size: 90%;}
+.pixel234 {font-size: 23.4px;}
+.pixel162 {font-size: 16.2px;} */
+
+/* * Nilai relative */
+
+/* body {font-size: 16px;}
+div {font-size: 110%;} */
+
+/* body {font-size: 20px;}
+.persen120 {font-size: 120%;}
+.em12 {font-size: 1.2em;}
+.persen80 {font-size: 80%;}
+.em08 {font-size: 0.8em;} */
+
+/* html {font-size: 20px;}
+body {font-size: 16px;}
+div {font-size: 90%;}
+p {font-size: 1rem;} */
+
+/* * keyword absolute */
+
+/* .xx-large {font-size: xx-large;}
+.x-large {font-size: x-large;}
+.large {font-size: large;}
+.medium {font-size: medium;}
+.small {font-size: small;}
+.x-small {font-size: x-small;}
+.xx-small {font-size: xx-small;} */
+
+/* * keyword relative */
+
+.larger {font-size: larger;}
+.smaller {font-size: smaller;}
+div {font-size: 20px;}

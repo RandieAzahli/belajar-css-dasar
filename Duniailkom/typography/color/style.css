@@ -1,0 +1,52 @@
+/* ? Property color berguna untuk mengubah warna font, sedangkan background-color dipakai untuk mengubah warna latar belakang dari sebuah teks (warna background) */
+
+/* h1, p 
+{
+    color: white;
+    background-color: black;
+} */
+
+/* * format warna keyword */
+
+/* p {font-size: 24px;}
+.peachpuff {color: peachpuff;}
+.royalblue {color: royalblue;}
+.tomato {color: tomato;}
+.rebeccapurple {color: rebeccapurple;}
+.chocolate {color: chocolate;} */
+
+/* * format warna #RRGGBB */
+
+/* .satu {color: #FFFFFF;}
+.dua {color: #000000;}
+.tiga {color: #FF0000;}
+.empat {color: #00FF00;}
+.lima {color: #FFFF00;}
+.enam {color: #00FFFF;} */
+
+/* * format warna rgb */
+
+/* p {font-size: 24px;}
+.satu {color: #FF00FF;}
+.dua {color: rgb(255, 0, 255)}
+.tiga {color: rgb(100%, 0%, 100%)} */
+
+/* * format warna rgba */
+
+/* p {font-size: 24px;}
+.satu {color: rgba(45, 45, 80, 1);}
+.dua {color: rgba(45, 45, 80, 0.8);}
+.tiga {color: rgba(45, 45, 80, 0.6);}
+.empat {color: rgba(45, 45, 80, 0.4);}
+.lima {color: rgba(45, 45, 80, 0.2);}
+.enam {color: rgba(45, 45, 80, 0);} */
+
+/* * format warna hsl */
+
+/* p {font-size: 24px;}
+.satu {color: hsl(300, 100%, 50%);}
+.dua {color: hsl(40, 100%, 50%);}
+.tiga {color: hsl(120, 50%, 90%);}
+.empat {color: hsl(120, 100%, 50%, 0.6);}
+.lima {color: hsl(120, 100%, 50%, 0.2);}
+.enam {color: hsl(120, 100%, 50%, 1);} */

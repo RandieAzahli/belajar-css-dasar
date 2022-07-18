@@ -1,0 +1,5 @@
+/* ? property font-style hanya berfungsi untuk memiringkan text (membuat efek italic). Nilai yang bisa diinput adalah salah satu dari normal , italic dan oblique . */
+
+.italic {font-style: italic;}
+.oblique {font-style: oblique;}
+.normal {font-style: normal;}

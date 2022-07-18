@@ -1,0 +1,29 @@
+/* ? property text-decoration untuk membuat dekorasi teks seperti garis bawah, garis atas dan garis tercoret. Nilai untuk property ini adalah salah satu dari keyword underline , overline , line-through dan none . Kita juga bisa menggunakan 2 atau 3 efek dekorasi sekaligus. */
+
+/* .satu {text-decoration: underline; color: red;}
+.dua {text-decoration: overline; color: dodgerblue;}
+.tiga {text-decoration: line-through; color: green;}
+.empat {text-decoration: underline overline; color: yellow;}
+.lima {text-decoration: line-through underline overline; color: orange;}
+.enam {text-decoration: none; color: black;} */
+
+.satu 
+{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+}
+
+.dua 
+{
+    text-decoration-line: overline;
+    text-decoration-style: dashed;
+    text-decoration-color: #FF0000;
+}
+
+.tiga 
+{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: hsla(240, 100%, 50%, 0.9);
+}

@@ -1,0 +1,3 @@
+/* ? Property font-variant cukup unik. Property ini dipakai untuk membuat variasi font, tetapi nilai yang didukung (saat ini) hanya 2: small-caps dan normal . */
+
+.satu {font-variant: small-caps;}

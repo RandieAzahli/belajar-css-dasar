@@ -1,0 +1,7 @@
+/* ? CSS menyediakan property text-transform. Property text-transform bisa diisi dengan salah satu keyword: capitalize , uppercase , lowercase , atau none */
+
+.satu {text-transform: capitalize;}
+.satu {text-transform: capitalize;}
+.dua {text-transform: uppercase;}
+.tiga {text-transform: lowercase;}
+.empat {text-transform: none;}

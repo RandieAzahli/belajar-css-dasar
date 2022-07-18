@@ -1,4 +1,4 @@
-/* ? Untuk teks yang panjang, kadang kita perlu mengatur rata teks apakah itu rata kiri, rata tengah, rata kanan, atau rata kiri kanan. CSS menyediakan fitur ini melalui property text- align. Nilai yang didukung adalah salah satu dari keyword: left , center , right dan justify .  */
+/* ? Untuk teks yang panjang, kadang kita perlu mengatur rata teks apakah itu rata kiri, rata tengah, rata kanan, atau rata kiri kanan. CSS menyediakan fitur ini melalui property text- align. Nilai yang didukung adalah salah satu dari keyword: left , center , right dan justify . */
 
 .satu {text-align: left;}
 .dua {text-align: center;}
